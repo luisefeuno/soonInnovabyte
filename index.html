@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@InnovaByte">
+    <meta name="twitter:creator" content="@InnovaByte">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="InnovaByte - Pronto la WEB">
+    <meta name="twitter:description" content="Sitio de InnovaByte en construcción. Pronto la WEB.">
+    <meta name="twitter:image" content="https://innovabyte.es/images/portada.jpg">
+
+    <!-- Facebook -->
+    <meta property="og:url" content="https://innovabyte.es">
+    <meta property="og:title" content="InnovaByte - Pronto la WEB">
+    <meta property="og:description" content="Sitio de InnovaByte en construcción. Pronto la WEB.">
+    <meta property="og:image" content="https://innovabyte.es/images/portada.jpg">
+    <meta property="og:image:secure_url" content="https://innovabyte.es/images/portada.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!-- Meta -->
+    <meta name="description" content="Sitio de InnovaByte en construcción. Pronto la WEB.">
+    <meta name="author" content="InnovaByte">
+
+    <!-- Google Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="keywords" content="InnovaByte, tecnología, software, desarrollo, innovación, servicios tecnológicos">
+    <meta name="google-site-verification" content="your-google-site-verification-code">
+
+    <link rel="shortcut icon" href="images/favicon_innova.ico">
+
+    <title>InnovaByte - Pronto la WEB</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Josefin+Sans:400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Material-design-iconic-font -->
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+
+    <!-- headline.css -->
+    <link rel="stylesheet" type="text/css" href="css/headline.css">
+
+    <!-- jquery.fullPage.css -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+        .disabled {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        .navbar-brand img {
+            max-width: 350px;
+            /* Ajusta este valor según sea necesario */
+            height: auto;
+        }
+
+        .btn-subscribe {
+            display: none;
+        }
+    </style>
+
+    <script>
+        // (function (i, s, o, g, r, a, m) {
+        //     i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        //         (i[r].q = i[r].q || []).push(arguments)
+        //     }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        //         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        // })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        // ga('create', 'UA-82330139-1', 'auto');
+        // ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body class="image-background" bg-image="images/fondo.jpg">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                Loading...
+            </div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <header class="header">
+        <nav class="navbar navbar-custom">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand logo dark-logo" href="index.html"><img src="images/logo.png"
+                            alt="InnovaByte"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right dark-nav" id="menu">
+                        <li class="active" data-menuanchor="1stPage"><a href="#1stPage" class="active">Home</a></li>
+                        <!-- <li data-menuanchor="2ndPage"><a href="#2ndPage">subscribe</a></li> -->
+                        <li data-menuanchor="3rdPage"><a href="#3rdPage">About</a></li>
+                        <li data-menuanchor="4thPage"><a href="#4thPage">Servicios</a></li>
+                        <li data-menuanchor="5thPage"><a href="#5thPage">Contacto</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <div id="fullpage">
+        <div class="overlay-demo"></div>
+        <div class="section dark-image" id="section0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="home-title section-title">
+                            <p class="text-center demo">Nuestro proyecto está creciendo… ¡Pronto lo verás...!</p>
+                            <h1 class="cd-headline clip is-full-width">
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Bienvenidos a InnovaByte</b>
+                                    <b style="font-size: 28px;">Construyendo el eCommerce de tus sueños</b>
+                                    <b style="font-size: 28px;">Software a medida, sin límites</b>
+                                </span>
+                            </h1>
+                            <div class="dark-time dark-circle animated bounceIn" data-date="2025-07-01 00:00:00"
+                                data-timer="900" bg-color="#b4c4d4" circle-color="#CC7700" id="countdown-time"></div>
+                            <div class="scribe">
+                                <a href="#2ndPage" class="btn btn-lg btn-subscribe dark-btn" role="button">Subscribe</a>
+                            </div>
+                        </div>
+                    </div><!--End-col-->
+                </div><!--End-row-->
+            </div><!--End-container-->
+        </div><!-- End section -->
+
+        <div class="section subscribe dark-image" style="display:none" id="section1">
+            <div class="container">
+                <div class="common-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="subscribe-section section-title title">
+                                <h1 class="text-center">subscribe to our newsletter</h1>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                                </p>
+
+                                <p class="email">Type your email address & get updates</p>
+
+                                <div class="confirm-message  text-center">
+                                    <form class="text-center"
+                                        action="http://zoyothemes.us1.list-manage.com/subscribe/post?u=ea5b5414236e0d2e902ea272a&amp;id=ae7bb99217"
+                                        id="subscribe-form" method="get">
+                                        <div class="input-group group-dark">
+                                            <input type="email" class="form-control dark-control" id="mce-EMAIL"
+                                                name="EMAIL" placeholder="Join Newsletter" required>
+                                            <span class="input-group-btn">
+                                                <button class="subscribe-submit submit-darkbtn" type="submit"
+                                                    id="scribebtn" name="scribebtn">Subscribe</button>
+                                            </span>
+                                        </div>
+                                        <label for="mce-EMAIL"></label>
+                                    </form>
+                                </div><!-- confirm-message -->
+                            </div><!-- End subscribe -->
+                        </div><!-- End col -->
+                    </div><!-- End row -->
+                </div><!--End common-container -->
+            </div><!-- End container -->
+        </div><!-- End subscribe section -->
+
+        <div class="section about dark-image" id="section2">
+            <div class="container">
+                <div class="common-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+
+                            <div class="about-section section-title title">
+                                <h1 class="text-center">About us</h1>
+                                <p class="text-center">En InnovaByte, fusionamos más de 30 años de experiencia en
+                                    desarrollo y análisis de software con una pasión
+                                    inquebrantable por la innovación tecnológica. Nuestro CEO ha forjado su experiencia
+                                    trabajando desde los cimientos del software en entidades financieras hasta abordar
+                                    desafíos complejos en
+                                    multinacionales líderes en su sector. Esta trayectoria no
+                                    solo nos permite comprender profundamente las necesidades de cada cliente, sino
+                                    también ofrecer soluciones a medida que potencian su crecimiento y competitividad.
+                                </p>
+                            </div>
+
+                        </div><!-- End col -->
+                    </div><!-- End row -->
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="about-chart" id="about-sec">
+                                <div class="col-sm-4">
+                                    <div class="countdown count-dark">
+                                        <!-- <div class="easy-pie-chart count-panal" data-percent="90" data-bgcolor="#CC7700"
+                                            data-trackcolor="#b4c4d4">
+                                            <div class="percent-container percent-dark">
+                                                <span class="percent">90</span>
+                                            </div>
+                                        </div> -->
+                                        <img src="images/feria.png" alt="TPV" class="img-responsive">
+                                        <h1>eCommerce</h1>
+                                        <p>Desarrollamos tiendas online a medida, escalables y de alto rendimiento,
+                                            diseñadas para convertir visitantes en
+                                            clientes. Tecnología robusta, experiencia de compra impecable.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="countdown count-dark">
+                                        <!-- <div class="easy-pie-chart count-panal" data-percent="78" data-bgcolor="#CC7700"
+                                            data-trackcolor="#b4c4d4">
+                                            <div class="percent-container percent-dark">
+                                                <span class="percent">78</span>
+                                            </div>
+                                        </div> -->
+                                        <img src="images/erp.png" alt="ERP" class="img-responsive">
+                                        <h1>Desarrollo a medida</h1>
+                                        <p>Desarrollo de software a medida, adaptado a tus procesos únicos. Soluciones
+                                            ERP y CRM flexibles, potentes y diseñadas
+                                            para crecer contigo.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <div class="countdown count-dark">
+                                        <!-- <div class="easy-pie-chart count-panal" data-percent="67" data-bgcolor="#CC7700"
+                                            data-trackcolor="#b4c4d4">
+                                            <div class="percent-container percent-dark">
+                                                <span class="percent">67</span>
+                                            </div>
+                                        </div> -->
+                                        <img src="images/inventario.png" alt="Inventario" class="img-responsive">
+                                        <h1>Integraciones</h1>
+                                        <p>Integraciones personalizadas que potencian tus sistemas actuales. Conectamos
+                                            tus aplicaciones para un flujo de
+                                            trabajo perfecto y sin fisuras.</p>
+                                    </div>
+                                </div>
+
+                            </div><!-- End about-chart -->
+                        </div><!--End col -->
+                    </div><!-- End row -->
+                </div><!-- End common-container -->
+            </div><!-- End container -->
+        </div><!-- End section -->
+
+
+        <div class="section services dark-image" id="section3">
+            <div class="container">
+                <div class="common-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+
+                            <div class="services-section section-title title">
+                                <h1 class="text-center">Servicios</h1>
+                                <p class="text-center">Enfocados en la excelencia y el detalle, en InnovaByte nos
+                                    especializamos en la creación de software que transforma
+                                    ideas en realidades digitales. Nuestro compromiso es proporcionar un servicio
+                                    personalizado que supere las expectativas,
+                                    apoyando a empresas en su transformación digital con tecnologías avanzadas, procesos
+                                    ágiles y un equipo dedicado que
+                                    comparte una visión común: impulsar el cambio positivo a través del poder del
+                                    software.</p>
+                            </div>
+
+                        </div><!--end col-->
+                    </div><!--end row-->
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="col-sm-4">
+                                <div class="service-details service-dark">
+                                    <div class="services-icon icon_dark">
+                                        <i class="ion-ios-browsers-outline"></i>
+                                    </div>
+                                    <h1 class="services-title">Soluciones a medida</h1>
+                                    <p class="center">Desarrollo de aplicaciones personalizadas adaptadas a las
+                                        necesidades específicas del cliente, optimizando sus procesos de negocio.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="service-details service-dark">
+                                    <div class="services-icon icon_dark">
+                                        <i class="ion-ios-infinite-outline"></i>
+                                    </div>
+                                    <h1 class="services-title">Consultoría</h1>
+                                    <p class="center">Evaluamos las necesidades tecnológicas actuales del cliente y
+                                        proponemos soluciones y estrategias para mejorar o innovar.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="service-details service-dark">
+                                    <div class="services-icon icon_dark">
+                                        <i class="ion-ios-monitor-outline"></i>
+                                    </div>
+                                    <h1 class="services-title">Migración a la nube</h1>
+                                    <p class="center">Ayudamos a las empresas a migrar sus aplicaciones y datos a
+                                        soluciones en la nube para aprovechar su flexibilidad y escalabilidad.</p>
+                                </div>
+                            </div>
+                        </div><!-- End main col -->
+
+                    </div><!--End row-->
+                    <br>
+                    <p class="text-center service-dark">Esto es una pequeña muestra de lo que
+                        hacemos. Si
+                        estás interesado
+                        consultanos a través del formulario de contacto de la sección siguiente.</p>
+                </div><!-- End common-container -->
+            </div><!-- End container -->
+        </div><!-- End section -->
+
+
+        <div class="section contact dark-image" id="section4">
+            <div class="container">
+                <div class="common-container contact-container">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="contact-section common section-title title">
+                                <h1 class="text-center">Contacto</h1>
+                                <p class="text-center">Contactanos: Estamos aquí para ayudarte. <br> Si tienes alguna
+                                    pregunta
+                                    o necesitas más información, no dudes en ponerte en contacto con nosotros.</p>
+                                </p>
+                            </div>
+                        </div><!-- End col-->
+                    </div><!-- End row -->
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="form-section">
+                                <form class="contact-form" id="ajax-form" name="ajax-form" action="send_email.php"
+                                    method="post" data-parsley-validate novalidate>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <div class="input-field">
+                                                <input type="text" class="form-control dark-control" name="Name"
+                                                    id="name2" placeholder="Nombre" value="" parsley-trigger="change"
+                                                    required>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-md-6">
+                                            <div class="input-field">
+                                                <input type="email" class="form-control dark-control" name="Email"
+                                                    id="email2" placeholder="Email" value="" parsley-trigger="change"
+                                                    required>
+                                            </div>
+                                        </div>
+
+                                    </div> <!-- End row -->
+
+                                    <div class="row">
+                                        <div class="form-group col-md-12">
+                                            <textarea class="form-control dark-control" name="Message" id="message2"
+                                                placeholder="Mensaje" rows="6" parsley-trigger="change"
+                                                required></textarea>
+                                        </div>
+
+                                    </div><!-- End row -->
+
+                                    <div class="row">
+                                        <div class="col-md-12 text-center">
+                                            <div id="success-form" class="text-success" style="display: none;">Gracias,
+                                                su mensaje ha sido enviado</div>
+                                            <div class="error text-center" id="err-form"></div>
+                                            <button type="submit" class="btn send-button button-dark"
+                                                id="send">Enviar</button>
+                                        </div><!-- End col -->
+                                    </div><!-- End row-->
+                                </form><!-- End form -->
+                            </div> <!-- form-section -->
+                        </div><!-- End col-md-12 -->
+                    </div><!--End row-->
+                </div><!-- End common-container -->
+            </div><!-- End container -->
+        </div><!-- End section -->
+
+    </div><!-- End Fullpage -->
+
+
+    <footer class="footer onstart animated dark-copyright" data-animation="fadeInUp" data-animation-delay="800">
+        <nav class="social text-center">
+            <ul>
+                <li><a href="https://www.facebook.com/innovabyte.es" class="social-link facebook" target="_blank"><i
+                            class="zmdi zmdi-facebook"></i></a></li>
+                <!-- <li><a href="#" class="social-link twitter disabled"><i class="zmdi zmdi-twitter"></i></a></li> -->
+                <!-- <li><a href="#" class="social-link linkedin disabled"><i class="zmdi zmdi-linkedin"></i></a></li> -->
+                <li><a href="https://www.instagram.com/innovabyte.es/" class="social-link instagram" target="_blank"><i
+                            class="zmdi zmdi-instagram"></i></a></li>
+            </ul>
+        </nav>
+
+        <p class="copyright">© 2025 InnovaByte - All Rights Reserved</p>
+
+    </footer>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- jquery.counterup.min.js -->
+    <script type="text/javascript" src="js/jquery.waypoints.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+
+    <!-- Background -->
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+
+    <!-- Jquery.ajaxchimp -->
+    <script type="text/javascript" src="js/jquery.ajaxchimp.js"></script>
+
+    <!-- easypiechart.js -->
+    <script type="text/javascript" src="js/easypiechart.js"></script>
+
+    <!-- headline -->
+    <script type="text/javascript" src="js/animated-headline.js"></script>
+
+    <!-- jquery.easings.min.js -->
+    <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+
+    <!-- Jquery.fullPage.js -->
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+    <!-- TimeCircles.js -->
+    <script type="text/javascript" src="js/TimeCircles.js"></script>
+
+    <!-- parsley - form validation -->
+    <script type="text/javascript" src="js/parsley.min.js"></script>
+
+    <!-- custom script -->
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
